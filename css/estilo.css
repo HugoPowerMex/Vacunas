@@ -1,0 +1,91 @@
+/*FONT PARA HEADER TITULO CONTENIDO*/
+@font-face {
+    font-family: 'Almarose';
+    src: url(../fonts/Almarose-Bold-tituloContenido.otf);
+}
+
+
+
+/*FONT PARA HEADER TITULO*/
+@font-face {
+    font-family: 'TextaHeavy';
+    src: url(../fonts/TextaHeavy-header-titulo.ttf);
+}
+
+
+/*FONT PARA HEADER*/
+@font-face {
+    font-family: 'Suprema';
+    src: url(../fonts/Suprema-SemiBold-header.ttf);
+}
+
+/*FONT PARA CONTENIDO */
+@font-face {
+    font-family: 'Venecia';
+    src: url(../fonts/Venecia-textoContenido.ttf);
+}
+
+body{
+    width: 100%;
+    background-image: url("../imagenes/fondo.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    float: left;
+    width: auto;
+   
+}
+.tituloHeader{
+    font-family: 'TextaHeavy';
+    color: rgba(44,76,202,255);
+    font-size: 30px;    
+
+}
+.header{
+    background:rgba(230,244,252,255) ;
+    height: 80px;
+}
+
+.headerTexto{
+    font-family: 'Suprema';
+    color: #6d7b93 ;
+}
+.tituloInicio{
+    font-family: 'Almarose';
+    color: rgba(31,62,114,255);
+
+}
+.contenidoTexto{
+    font-family: 'Suprema';
+    color: rgba(138,149,169,255);
+    font-weight: bold;
+}
+.iconos{
+    font-family: 'Suprema';
+    color: black;
+    font-weight: bold;
+}
+.shedule{
+    font-family: 'Suprema';
+    color: black;
+    font-weight: bold;
+    font-size: 20px;
+}
+h6{
+    font-family: 'Suprema';
+    color: rgba(138,149,169,255);
+    font-weight: bold;
+}
+
+.footer{
+    background: rgba(238,243,255,255);
+}
+
+
+.menuR{ display:none;}
+
+@media (max-width: 1023px) {
+
+    .menuR { display: block; margin: 0 auto; }
+}
+
+
